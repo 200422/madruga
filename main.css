@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+body > header {
+    color: white;
+    background-color: goldenrod;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;    
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles img {
+    /*height: 180px;*/
+    width: 100%;
+}
+
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section h2,
+.articles article{
+    margin-bottom: 20px;
+}
+
+section h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 25px;
+}
+
+section h2 {
+    font-size: 33px;
+}
+
+#sport {
+    background-color: pink
+}
+
+#economy {
+    background-color: blueviolet;
+}
+
+#sport .articles article a {
+    background-color: lightpink;
+}
+
+#economy .articles article a {
+    background-color: blue;
+}
+
+/*----------------*/
+
+#enterteinment .articles
+#tecnology .articles{
+    flex-wrap: wrap;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles img {
+    height: 50%;
+}
+
+
+.articles header {
+    display: inline-block;
+}
+
+.articles p {
+    justify-content: space-between;
+}
+
+#enterteinment {
+    background-color: brown;
+}
+
+#tecnology {
+    background-color: bisque;
+}
+
+#enterteinment a {
+    background-color: lightslategray;
+    font-weight: bold;
+}
+
+#tecnology a {
+    background-color: lightcoral;
+    font-weight: bold;
+}
+
+
+
+
